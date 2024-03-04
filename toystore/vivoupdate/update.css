@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+ }
+body{
+ background-color: rgb(241, 253, 253);
+ width: 80%;
+ display: grid;
+ margin: auto;
+}
+ .header {
+  display: flex;
+  background-color:#c4caca;
+  color: rgb(18, 19, 20);
+  justify-content: center;
+  padding: 1em;
+ }
+ 
+ .head{
+  margin-top: 30vh;
+  margin-left: 10vh;
+ }
+
+ .head h3{
+ margin:  40px;
+ }
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  margin: auto;
+
+ }
+
+.info{
+ margin: 20px;
+}
+
+ .image{
+  display: flex;
+  width: 50vmax;
+  height: 30vmax;
+  margin: auto;
+  margin-top: 20vmax;
+ }
+
+ .content{
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  justify-content: center;
+ }
+
+
+
+
